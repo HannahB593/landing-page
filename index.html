@@ -6,69 +6,100 @@
         <title>Celebrity Dead or Alive Landing Page</title>
         <viewport content="width=device-width, initial-scale=1"> </viewport>
 
-        <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/index.css" />  
+        <link
+            href="https://fonts.googleapis.com/css?family=Lora&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="styles/index.css" />
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     </head>
 
     <!-- > font-family: 'Lora', serif; USE THIS for when you're in CSS. -->
 
-  <body>
-    <!-- Nav Bar for App Name and About-->
-    <div class="topnavandlogo">
-      <div id="wrapper"> 
-        <nav>
-          <img class="logo" src="#"  alt="Image of Logo">
-          <ul>
-            <li><a href="#">About</a></li>
-          </ul>
-        </nav>
-      </div>
+    <body>
+        <container>
+        <div class="navandlogo">
+            <div id="wrapper">
+                <nav>
+                    <img
+                        class="logo"
+                        src="img/celebdoalogofinal.png"
+                        alt="Image of the logo"
+                    />
 
-    </div>
-
-    
-    <!-- Header for Celebrity Dead or Alive with Button -->
-
-    <div class="header">
-        <div class="containerForHeaderImage">
-          <img class="header-image" src="" alt="Image of celebs">
-          <img class="header-image" src="" alt="Image of celebs">
-          <img class="header-image" src="" alt="Image of celebs"> 
-        </div>
-        <div class="appHeader"> 
-            <h1>Celebrity Dead or Alive!</h1>    
+                    <ul>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
-        <div class="quotesAndButton">
-          <p>The Coolest App Ever! -Amy, CO </p>
-          <p>"LOVE, LOVE, LOVE!" -Josh, CA </p>
-          <button>Download Here!</button> 
+        <!-- Header GRID for Celebrity Dead or Alive with Button -->
+
+        <div class="headerGrid">
+            <div class="headerImagesRow">
+                <div class="headerColumn">
+                    <img class="header-image" src="img/celebritiesheaderpic.png" alt="Image of celebs" />
+                    <!--<img class="header-image" src="" alt="Image of celebs" />
+                    <img class="header-image" src="" alt="Image of celebs" /> -->
+                </div>
+            </div>
+
+            <div class="appHeader">
+                <h1> <bold>Celebrity <br> Dead  or <br> Alive!</bold> </h1>
+            </div>
+
+            <div class="quotesButtonContainer">
+                <div class="quotes">
+                    <p>"The COOLEST App Ever!" <br> -Amy, CO</p>
+                    <p> <strong> "LOVE, LOVE, LOVE!"" <br> -Josh, CA</p>
+                </div>
+            </div>
+
+            <div class="downloadHereButton">
+                <button>Download Here!</button>
+            </div>
         </div>
-    </div>
 
+        <!-- Features Section- Text on left- image on right -->
+        <!-- This will span 100% -->
+        <div class="middleSection">
+            <div class="containerMidWritten">
+                <h2>
+                    Swipe right or left, guessing what celeb is dead or alive.
+                </h2>
+            </div>
+        </div>
 
-    <!-- Features Section- Text on left- image on right -->
-    <!-- This will span 100% -->
-    <div class="middleSection">
-      <div class="containerMidWritten">
-        <h1>Swipe right or left, guessing what celeb is dead or alive.</h1>
-      </div>
-    </div>  
+        <!-- Picture Block on left and Features list on right section-->
+        <div class="featuresBlock">
+            <div class="containerforimage">
+                <img class="features-image" src="img/mockupapp.png" alt="features image" />
+            </div>
 
-    
+            <div class="Features">
+                <h1>Features</h1>
+                <ul>
+                    <li>It's fun and free!</li>
+                    <li>Another cool feature</li>
+                    <li>A third cool feature</li>
+                </ul>
+            </div>
+        </div>
 
+        <!-- Bottom Footer Section-->
 
+        <section class="contact">
+            <h3>Questions or Comments?</h3>
+            <email>
+                Email us at celebdeadoraliveofficial@hello
+            </email>
+        </section>
 
-      <!-- <div class="featuresList">
-        <h1>
-          Features
-        </h1>
-        <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-      </div>
-
-      <div class="featuresImg">
-        <img class="features-image" src="" alt="Image of finished app interface?"></div>
-    </div>-->
-      
- 
-  </body>  
+        <footer>
+            Copyright Celeb Dead or Alive 2020
+        </footer>
+    </body>
+</container>
+</html>
