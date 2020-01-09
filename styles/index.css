@@ -1,11 +1,4 @@
-html,
-body {
-    height: 100%;
-    font-family: "Lora", serif;
-}
-
 /* */
-
 /* 
 * {
     box-sizing: border-box;
@@ -57,158 +50,181 @@ h1 {
     color: green;
 }
 */
-
+/* Header GRID for Celebrity Dead or Alive with Button */
+/* title of website- Celebrity Dead or Alive! */
+/* Middle Section */
+/* - Bottom Footer Section */
+* {
+  margin: 0;
+}
+html {
+  height: 100%;
+  font-family: "Lora", serif;
+}
+body {
+  height: 100%;
+  font-family: "Lora", serif;
+}
+/* 
 container {
     max-width: 1236px;
-}
-
+} */
 .navandlogo {
-    width: 100%;
+  width: 100%;
 }
-
 #wrapper {
-    padding: 10px;
-    margin: 10px 0px 0px 0px;
-    background-color: #7f74ff;
-    align-items: center;
+  padding: 10px;
+  margin: 10px 0px 0px 0px;
+  background-color: #7f74ff;
+  align-items: center;
 }
-
 #wrapper nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
-
 #wrapper nav li {
-    display: inline-flex;
+  display: inline-flex;
 }
-
 nav a {
-    color: rgb(232, 217, 46);
-    padding: 15px 20px 15px 20px;
-    margin: 20px 10px 0px 10px;
-    text-decoration: none;
-    float: right;
-    font-family: "Raleway", sans-serif;
-    font-size: 25px;
+  color: #e8d92e;
+  padding: 15px 20px 15px 20px;
+  margin: 20px 10px 0px 10px;
+  text-decoration: none;
+  float: right;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
 }
-
 .logo {
-    height: 60px;
-    width: 168px;
-    padding: 10px 30px;
-    margin-right: 7px;
-    margin-top: 10px;
-    display: inline-block;
+  height: 60px;
+  width: 168px;
+  padding: 10px 30px;
+  margin-right: 7px;
+  margin-top: 10px;
+  display: inline-block;
 }
-
-/* Header GRID for Celebrity Dead or Alive with Button */
-
 .headerGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background: rgb(78, 255, 228);
-    height: 780px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #4effe4;
+  height: 780px;
 }
-
-.headerColumn {
-    padding: 20px 10px;
+.headerGrid .headerColumn {
+  padding: 10px 10px;
 }
-
-.header-image {
-    padding: 70px 20px 20px 20px;
-    align-content: center;
-    height: 380px;
+.headerGrid .headerColumn .header-image {
+  margin-left: 45px;
+  padding: 70px 20px 20px 20px;
+  align-content: center;
+  height: 380px;
 }
-
-/* title of website- Celebrity Dead or Alive! */
-
 .appHeader {
-    padding: 20px 20px 0px 60px;
-    flex: grid;
+  padding: 20px 20px 0px 60px;
+  flex: grid;
 }
-
 h1 {
-    color: #7f74ff;
-    font-size: 5.6em;
-    text-align: left;
-    font-family: "Raleway", sans-serif;
+  color: #7f74ff;
+  font-size: 5.6em;
+  text-align: left;
+  font-family: "Raleway500", sans-serif;
 }
-
 .quotesButtonContainer {
-    padding: 20px;
-
+  padding: 20px;
 }
-
 .quotes {
-    padding: 5px;
-    flex-direction: row;
-    display: grid;
-    display: center;
-    grid-template-columns: repeat(2, 1fr);
+  padding: 5px;
+  flex-direction: row;
+  display: grid;
+  display: center;
+  grid-template-columns: repeat(2, 1fr);
 }
-
 p {
-    color: rgb(179, 101, 179);
-    font-size: 1.2em;
-    text-align: center;
+  color: #b365b3;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Raleway500", sans-serif;
 }
-
 .downloadHereButton {
-    align-content: center;
-    padding: 0px 0px 10px 70px;
-    display: flex;
+  display: -moz-inline-box;
+  padding-left: 45px;
 }
-
 button {
-    background-color: #7f74ff;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    border: none;
-    text-decoration: none;
-    padding: 12px 18px;
-    align-content: center;
+  background-color: #7f74ff;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  text-decoration: none;
+  padding: 20px 15px;
 }
-
 .button:hover {
-    background-color: rgb(194, 233, 195);
-    color: white;
+  background-color: #c2e9c3;
+  color: white;
 }
-
-/* Middle Section */
-
 .middleSection {
-    background: rgb(206, 218, 39);
+  background: #e8f07d;
 }
-
 .containerMidWritten {
-    padding: 150px 60px 150px 60px;
+  padding: 150px 60px 150px 60px;
 }
-
 h2 {
-    color: rgb(255, 35, 255);
-    font-size: 50px;
-    padding: 10px 80px 40px 80px;
+  color: #ff23ff;
+  font-size: 50px;
+  padding: 10px 80px 40px 80px;
+  font-family: "Heebo:700", sans-serif;
 }
-
 .featuresBlock {
-    display: flex;
+  display: flex;
 }
-
 .containerforimage {
-    grid-template-columns: repeat(2, 2fr);
+  flex-direction: column;
+  background-color: purple;
+  height: 400px;
 }
-
 .features-image {
-    width: 618px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
 }
-
 .Features {
-    display: flex; 
-    flex-direction: column; 
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 40px 20px 50px 10px;
+  background-color: #292323;
 }
-
-
-
-
+.Features h1 {
+  color: pink;
+  padding: 0px 65px;
+}
+li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: red;
+}
+.contact {
+  display: flex;
+  background-color: pink;
+}
+.contact h3 {
+  flex-direction: row;
+}
+.contact email {
+  flex-direction: row;
+  font-size: 20px;
+}
+footer {
+  color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .navandlogo {
+    width: 800px;
+  }
+  #wrapper {
+    width: 800px;
+    display: flex;
+    padding: 0px;
+  }
+}
