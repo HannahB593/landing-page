@@ -227,4 +227,16 @@ footer {
     display: flex;
     padding: 0px;
   }
+  .headerGrid {
+    width: 800px;
+  }
+  .headerGrid .headerColumn {
+    padding: 0px;
+  }
+  .headerGrid .headerColumn .header-image {
+    margin-left: 0px;
+    padding: 0px;
+    height: 180px;
+    float: left;
+  }
 }
