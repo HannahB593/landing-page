@@ -1,0 +1,242 @@
+/* */
+/* 
+* {
+    box-sizing: border-box;
+}
+
+.topnavandlogo {
+    width: 100%;
+}
+
+#wrapper {
+    padding: 10px;
+    background-color: blue;
+    color: rgb(133, 136, 90);
+    background: rgb(94, 155, 74);
+}
+
+#wrapper nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: red;
+}
+
+.logo {
+    height: 40px;
+    width: 30%;
+    margin-top: 10;
+    display: inline-flex;
+}
+
+#wrapper nav li {
+    display: inline-block;
+    margin: 20px 10px 20px 10px;
+    color: red;
+}
+
+nav a {
+    padding: 25px;
+    text-decoration: none;
+    color: blue;
+}
+
+.header {
+    display: flex;
+}
+
+h1 {
+    size: 40px;
+    color: green;
+}
+*/
+/* Header GRID for Celebrity Dead or Alive with Button */
+/* title of website- Celebrity Dead or Alive! */
+/* Middle Section */
+/* - Bottom Footer Section */
+* {
+  margin: 0;
+}
+html {
+  height: 100%;
+  font-family: "Lora", serif;
+}
+body {
+  height: 100%;
+  font-family: "Lora", serif;
+}
+/* 
+container {
+    max-width: 1236px;
+} */
+.navandlogo {
+  width: 100%;
+}
+#wrapper {
+  padding: 10px;
+  margin: 10px 0px 0px 0px;
+  background-color: #7f74ff;
+  align-items: center;
+}
+#wrapper nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#wrapper nav li {
+  display: inline-flex;
+}
+nav a {
+  color: #e8d92e;
+  padding: 15px 20px 15px 20px;
+  margin: 20px 10px 0px 10px;
+  text-decoration: none;
+  float: right;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
+.logo {
+  height: 60px;
+  width: 168px;
+  padding: 10px 30px;
+  margin-right: 7px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.headerGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #4effe4;
+  height: 780px;
+}
+.headerGrid .headerColumn {
+  padding: 10px 10px;
+}
+.headerGrid .headerColumn .header-image {
+  margin-left: 45px;
+  padding: 70px 20px 20px 20px;
+  align-content: center;
+  height: 380px;
+}
+.appHeader {
+  padding: 20px 20px 0px 60px;
+  flex: grid;
+}
+h1 {
+  color: #7f74ff;
+  font-size: 5.6em;
+  text-align: left;
+  font-family: "Raleway500", sans-serif;
+}
+.quotesButtonContainer {
+  padding: 20px;
+}
+.quotes {
+  padding: 5px;
+  flex-direction: row;
+  display: grid;
+  display: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+p {
+  color: #b365b3;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Raleway500", sans-serif;
+}
+.downloadHereButton {
+  display: -moz-inline-box;
+  padding-left: 45px;
+}
+button {
+  background-color: #7f74ff;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  text-decoration: none;
+  padding: 20px 15px;
+}
+.button:hover {
+  background-color: #c2e9c3;
+  color: white;
+}
+.middleSection {
+  background: #e8f07d;
+}
+.containerMidWritten {
+  padding: 150px 60px 150px 60px;
+}
+h2 {
+  color: #ff23ff;
+  font-size: 50px;
+  padding: 10px 80px 40px 80px;
+  font-family: "Heebo:700", sans-serif;
+}
+.featuresBlock {
+  display: flex;
+}
+.containerforimage {
+  flex-direction: column;
+  background-color: purple;
+  height: 400px;
+}
+.features-image {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+}
+.Features {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 40px 20px 50px 10px;
+  background-color: #292323;
+}
+.Features h1 {
+  color: pink;
+  padding: 0px 65px;
+}
+li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: red;
+}
+.contact {
+  display: flex;
+  background-color: pink;
+}
+.contact h3 {
+  flex-direction: row;
+}
+.contact email {
+  flex-direction: row;
+  font-size: 20px;
+}
+footer {
+  color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .navandlogo {
+    width: 800px;
+  }
+  #wrapper {
+    width: 800px;
+    display: flex;
+    padding: 0px;
+  }
+  .headerGrid {
+    width: 800px;
+  }
+  .headerGrid .headerColumn {
+    padding: 0px;
+  }
+  .headerGrid .headerColumn .header-image {
+    margin-left: 0px;
+    padding: 0px;
+    height: 180px;
+    float: left;
+  }
+}
